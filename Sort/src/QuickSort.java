@@ -1,12 +1,7 @@
 import java.util.Comparator;
 
-public class QuickSort<T> implements Sort<T> {
+public class QuickSort implements Sort {
 
-	@Override
-	public void sort(T[] array, Comparator<T> comparator) {
-		// TODO Auto-generated method stub
-
-	}
 
 	@Override
 	public void sortASC(int[] array) {
@@ -54,11 +49,5 @@ public class QuickSort<T> implements Sort<T> {
 
 	}
 
-
-	@Override
-	public void sortDESC(int[] array) {
-		// TODO Auto-generated method stub
-
-	}
 
 }

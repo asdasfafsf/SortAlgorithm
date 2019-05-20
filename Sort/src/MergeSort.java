@@ -1,15 +1,8 @@
 import java.util.Comparator;
 
-public class MergeSort<T> implements Sort<T>{
+public class MergeSort implements Sort {
 	private int[] dummy;
 	
-	@Override
-	public void sort(T[] array, Comparator<T> comparator) {
-		// TODO Auto-generated method stub
-	
-		
-	}
-
 	@Override
 	public void sortASC(int[] array) {
 		dummy = new int[array.length];
@@ -63,11 +56,6 @@ public class MergeSort<T> implements Sort<T>{
 		}
 	}
 
-	@Override
-	public void sortDESC(int[] array) {
-		
-		
-	}
 	
 
 }
